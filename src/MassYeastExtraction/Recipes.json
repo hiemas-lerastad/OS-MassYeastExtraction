@@ -1,6 +1,6 @@
 [
   {
-    "ID": 10001,
+    "ID": 100001,
     "Name": "Extract yeast",
     "Type": "ChemicalLab",
     "Appearance": {
@@ -79,7 +79,7 @@
     "Meta": null
   },
   {
-    "ID": 10002,
+    "ID": 100002,
     "Name": "Extract yeast",
     "Type": "ChemicalLab",
     "Appearance": {
@@ -158,7 +158,7 @@
     "Meta": null
   },
   {
-    "ID": 10003,
+    "ID": 100003,
     "Name": "Extract yeast",
     "Type": "ChemicalLab",
     "Appearance": {

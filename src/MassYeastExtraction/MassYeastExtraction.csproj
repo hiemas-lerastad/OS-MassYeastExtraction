@@ -17,25 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.2"
-      PrivateAssets="all" />
+    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.2" PrivateAssets="all" />
 
     <Reference Include="$(DependsDir)/Assembly-CSharp.dll" Publicize="true" />
+	  <Reference Include="$(PluginsDir)/Lavender.dll" Publicize="true" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference
-      Include="BepInEx.Analyzers"
-      PrivateAssets="all"
-      Version="1.*" />
+    <PackageReference Include="BepInEx.Analyzers" PrivateAssets="all" Version="1.*" />
 
-    <PackageReference
-      Include="BepInEx.Core"
-      Version="5.4.*" />
-  </ItemGroup>
-
-  <ItemGroup>
-	<Reference Include="$(PluginsDir)/Lavender.dll" Publicize="true" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.*" />
   </ItemGroup>
 
   <Import Project="$(SolutionDir)Config.Build.user.props" />
