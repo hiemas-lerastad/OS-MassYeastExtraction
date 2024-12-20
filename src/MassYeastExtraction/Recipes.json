@@ -1,0 +1,81 @@
+[
+  {
+    "ID": "MYE-01",
+    "Name": "Extract yeast",
+    "Type": "ChemicalLab",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Yeast Extraction",
+          "ID": 15070
+        },
+        "Value": 10.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Yeast",
+          "ID": 180060
+        },
+        "Value": 40.0
+      },
+      {
+        "Key": {
+          "name": "Ruined Mash",
+          "ID": 13220
+        },
+        "Value": 10.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Ruined Mash",
+          "ID": 13220
+        },
+        "Value": 10.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.0818,
+    "RelevantSkill": "Chemistry",
+    "SkillFactor": 10.0,
+    "ProcessTime": 1200,
+    "Meta": null
+  }
+]
